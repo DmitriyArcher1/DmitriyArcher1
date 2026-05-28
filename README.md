@@ -100,7 +100,6 @@
       <td align="center" width="50%">
         <h3>📚 Изучаю</h3>
         <ul align="left">
-          <li>⚛️ React — создаю динамические SPA-приложения</li>
           <li>🐳 Docker — контейнеризация многокомпонентных проектов</li>
           <li>🔄 REST API — проектирование и документирование (Swagger/OpenAPI)</li>
           <li>🌐 NGINX — настройка проксирования и статики для Django</li>
