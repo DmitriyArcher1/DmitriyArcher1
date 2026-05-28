@@ -94,20 +94,109 @@
 
 ## 🧠 Чем я занимаюсь сейчас
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <h3>📚 Изучаю</h3>
+        <ul align="left">
+          <li>⚛️ React — создаю динамические SPA-приложения</li>
+          <li>🐳 Docker — контейнеризация многокомпонентных проектов</li>
+          <li>🔄 REST API — проектирование и документирование (Swagger/OpenAPI)</li>
+          <li>🌐 NGINX — настройка проксирования и статики для Django</li>
+          <li>🤖 aiogram — создание Telegram-ботов с машиной состояний (FSM)</li>
+          <li>🔌 WebSockets — реализация real-time функционала (чаты, уведомления)</li>
+        </ul>
+      </td>
+      <td align="center" width="50%">
+        <h3>⚙️ Углубляю</h3>
+        <ul align="left">
+          <li>🐍 Python — асинхронность (asyncio/aiohttp), декораторы, генераторы</li>
+          <li>🗄️ PostgreSQL — оптимизация запросов, индексы, транзакции</li>
+          <li>📜 Bash — написание скриптов для автоматизации рутины</li>
+          <li>🐧 Linux — администрирование, systemd, cron, сетевые утилиты</li>
+          <li>💻 C++ — алгоритмы и структуры данных</li>
+          <li>🔐 JWT — аутентификация и авторизация в API</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <h3>🎯 Текущие проекты</h3>
+        <ul align="left">
+          <li><strong>Telegram Task-Manager Bot</strong> — aiogram + PostgreSQL</li>
+          <li><strong>Portfolio WebSite</strong> — HTML + CSS Modules, адаптивная вёрстка</li>
+        </ul>
+      </td>
+      <td align="center" width="33%">
+        <h3>🎓 Планы на обучение</h3>
+        <ul align="left">
+          <li>📅 До конца месяца: завершить курс по aiogram</li>
+          <li>📅 Через 2 месяца: освоить FastAPI и сравнить с Django</li>
+          <li>📅 Через 3 месяца: изучить CI/CD (GitHub Actions + Docker Hub)</li>
+          <li>📅 Долгосрочно: погружение в DevOps (Kubernetes, Terraform, Ansible)</li>
+        </ul>
+      </td>
+      <td align="center" width="33%">
+        <h3>💡 Интересные факты</h3>
+        <ul align="left">
+          <li>✨ Пишу код ежедневно минимум 2 часа</li>
+          <li>🎧 Фон для кодинга: Lo-Fi, synthwave или классическая музыка</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
 ```python
-class DmitrySelinin:
+# А это мой "цифровой двойник" — код, который описывает меня как разработчика :)
+
+class DmitriyArcher1:
+    """Мой профиль разработчика"""
+    
     def __init__(self):
         self.name = "Дмитрий Селин"
-        self.role = "Программист (учусь)"
-        self.stack = {
-            "languages": ["Python"],
-            "frameworks": ["Django", "aiogram"],
-            "databases": ["PostgreSQL"],
-            "tools": ["Docker", "Git", "REST API"]
-        }
+        self.github = "DmitriyArcher1"
+        self.role = "Backend-разработчик (в процессе обучения)"
+        
+        # Технологический стек
+        self.backend = ["Python", "Django", "REST API", "PostgreSQL", "aiogram"]
+        self.frontend = ["HTML5", "CSS3", "JavaScript", "React"]
+        self.devops = ["Docker", "Linux", "Bash", "Git"]
+        self.embedded = ["C++", "Arduino"]
+        self.other_languages = ["Ruby"]
+        
+        # Метрики и цели
+        self.daily_code_hours = 2
+        self.active_projects = 4
+        self.goal = "Стать Senior Backend Developer"
     
     def current_focus(self):
-        return "Разработка бэкенд-приложений и контейнеризация"
+        """Что я изучаю прямо сейчас"""
+        return {
+            "main": "aiogram + Django REST Framework integration",
+            "secondary": "Docker Compose для многоконтейнерных приложений",
+            "practicing": "Асинхронное программирование на Python (asyncio)"
+        }
+    
+    def get_tech_stack_string(self):
+        """Возвращает красивую строку со стеком"""
+        all_tech = self.backend + self.frontend + self.devops + self.embedded + self.other_languages
+        return " → ".join(all_tech)
     
     def say_hi(self):
-        print("Спасибо, что заглянул в мой профиль! Буду рад конструктивному общению и коллаборации.")
+        print("Привет! Я Дмитрий. Спасибо, что интересуешься моим развитием!")
+        print(f"Мой стек: {self.get_tech_stack_string()}")
+
+# Создаём экземпляр меня
+me = DmitriyArcher1()
+me.say_hi()
