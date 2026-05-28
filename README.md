@@ -167,14 +167,14 @@ class DmitriyArcher1:
         self.github = "DmitriyArcher1"
         self.role = "Backend-разработчик (в процессе обучения)"
         
-        # Технологический стек
+        # мой стек
         self.backend = ["Python", "Django", "REST API", "PostgreSQL", "aiogram"]
         self.frontend = ["HTML5", "CSS3", "JavaScript", "React"]
         self.devops = ["Docker", "Linux", "Bash", "Git"]
         self.embedded = ["C++", "Arduino"]
         self.other_languages = ["Ruby"]
         
-        # Метрики и цели
+        # мои метрики и цели
         self.daily_code_hours = 2
         self.active_projects = 4
         self.goal = "Стать Senior Backend Developer"
@@ -196,6 +196,6 @@ class DmitriyArcher1:
         print("Привет! Я Дмитрий. Спасибо, что интересуешься моим развитием!")
         print(f"Мой стек: {self.get_tech_stack_string()}")
 
-# Создаём экземпляр меня
+# создаём экземпляр меня, как разработчика
 me = DmitriyArcher1()
 me.say_hi()
